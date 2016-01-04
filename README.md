@@ -3,7 +3,7 @@
 ## Features:
 * Swipe two leaflet layers with draggable swipe bar
 * Swipe two leaflet layers in horizontal/vertical orientation
-* Switch swipe orientation through clicking layer swipe control (default: on topright of leaflet map control)
+* Switch layer swipe orientation through clicking layer swipe control (default: on topright of leaflet map control)
 
 ## Usage:
     /*
