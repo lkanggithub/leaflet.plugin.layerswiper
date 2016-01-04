@@ -3,7 +3,7 @@
 ## Features:
 * Swipe two leaflet layers with draggable swipe bar
 * Swipe two leaflet layers in horizontal/vertical orientation
-* Switch swipe orientation through clicking layer swipe control (default: topright of leaflet map control)
+* Switch swipe orientation through clicking layer swipe control (default: on topright of leaflet map control)
 
 ## Usage:
     /*
@@ -42,7 +42,7 @@
 ## ini Options:
 *	`id`: id of layer swipe plug-in
 *	`title`: title of layer swipe plug-in
-*	`position`: layer swipe plug-in relative position with leaflet map, default is 鈥榯opright鈥? Please refer leaflet鈥檚 [API] (http://leafletjs.com/reference.html#control-positions).
+*	`position`: layer swipe plug-in's relative position with leaflet map, default is `topright` Please refer leaflet [API] (http://leafletjs.com/reference.html#control-positions).
 *	`orientation`: layer swipe orientation. Options include `h` (horizontal, default), `v` (vertical) and `n` (none). Specifically, `h`: swipe layers with horizontal bar.  `v`: swipe layers with vertical bar.  `n`: no layer swipe. Default is `h (horizontal)`.
 *	`ratio`: initial ratio of layers to be compared. For example, ratio: 0.4 means 40% left layers/60% right layer or 40% top layer/60% bottom layer. Default is `0.5`.
 *	`swipeLyrConf`: configuration of layer swipe plug-in
