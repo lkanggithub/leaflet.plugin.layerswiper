@@ -3,6 +3,7 @@
         // return typeof object[property] == 'function';
     // });
 // };
+'use strict';
 
 var viewCenter = [37.0, -92.5];
 var viewSouthWest = L.latLng(24.0, -125.0);
@@ -28,7 +29,7 @@ compareLayer.addTo(map);
 /*
  * Add Layer swiper
  */
-swipeLyrConf = {base:{layer:baseLayer,clip:null},compare:{layer:compareLayer,clip:null}};
+var swipeLyrConf = {base:{layer:baseLayer,clip:null},compare:{layer:compareLayer,clip:null}};
 var lyrSwiper = L.control.layerSwiper({
 	orientation:'v',
 	ratio:0.5,

@@ -138,7 +138,7 @@ L.Control.layerSwiper = L.Control.extend({
     			this._lyrSwipeBarContainer.style.top=null;
     		}
     		L.DomUtil.addClass(this._lyrSwipeBarContainer,this._classPrefix+'-'+this._swipeOrin);
-    		this._swipeLyrConf.base.layer._container.style = '';
+			this._swipeLyrConf.base.layer._container.setAttribute('style','');
         }
     },
     
@@ -150,7 +150,7 @@ L.Control.layerSwiper = L.Control.extend({
 			var swipeBarY = Number(swipeBar.style.top.substring(0,swipeBar.style.top.lastIndexOf('px')));
 			var clipY = nw.y + swipeBarY;
 			var clipStyle = 'clip:rect(' + [nw.y, se.x, clipY, nw.x].join('px,') + 'px)';
-		    tmpLyr._container.style = 'display: block;' + clipStyle;
+			tmpLyr._container.setAttribute('style','display: block;' + clipStyle);
 			swipeLyrConf.base.clip = clipStyle;
 			tmpLyr.setZIndex(2);
 		}
@@ -164,7 +164,7 @@ L.Control.layerSwiper = L.Control.extend({
 		    var swipeBarX = Number(swipeBar.style.left.substring(0,swipeBar.style.left.lastIndexOf('px')));
 		    var clipX = nw.x + swipeBarX;
 		    var clipStyle = 'clip:rect(' + [nw.y, clipX, se.y, nw.x].join('px,') + 'px)';
-		    tmpLyr._container.style = 'display: block;' + clipStyle;
+			tmpLyr._container.setAttribute('style','display: block;' + clipStyle);
 			swipeLyrConf.base.clip = clipStyle;
 			tmpLyr.setZIndex(2);
 		}
