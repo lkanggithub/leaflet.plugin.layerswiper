@@ -43,7 +43,7 @@
 *	`id`: id of layer swipe plug-in
 *	`title`: title of layer swipe plug-in
 *	`position`: layer swipe plug-in's relative position with leaflet map, default is `topright` Please refer leaflet [API] (http://leafletjs.com/reference.html#control-positions).
-*	`orientation`: layer swipe orientation. Options include `h` (horizontal, default), `v` (vertical) and `n` (none). Specifically, `h`: swipe layers with horizontal bar.  `v`: swipe layers with vertical bar.  `n`: no layer swipe. Default is `h (horizontal)`.
-*	`ratio`: initial ratio of layers to be compared. For example, ratio: 0.4 means 40% left layers/60% right layer or 40% top layer/60% bottom layer. Default is `0.5`.
+*	`orientation`: layer swipe orientation. Options include `h` (horizontal, default), `v` (vertical) and `n` (none). Specifically, `h`: swipe layers with horizontal bar.  `v`: swipe layers with vertical bar.  `n`: no layer swipe. Default value is `h (horizontal)`.
+*	`ratio`: initial ratio of layers to be compared. For example, ratio: 0.4 means 40% left layers + 60% right layer or 40% top layer + 60% bottom layer. Default value is `0.5`.
 *	`swipeLyrConf`: configuration of layer swipe plug-in
 
