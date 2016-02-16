@@ -6,6 +6,7 @@
 * Switch layer swipe orientation through clicking layer swipe control (default: on topright of leaflet map control)
 
 ## Usage:
+```javascript
     /*
     * Initialize leaflet map
     */
@@ -38,7 +39,7 @@
       swipeLyrConf:swipeLyrConf
     }
     ).addTo(map);
-  
+```
 ## ini Options:
 *	`id`: id of layer swipe plug-in
 *	`title`: title of layer swipe plug-in
