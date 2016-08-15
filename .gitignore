@@ -1,4 +1,5 @@
 *.project
 .settings
-*.scss
-*.sass
+*/css/*.scss
+*/css/*.sass
+*/css/*.map
