@@ -1,0 +1,137 @@
+.leaflet-control-lyrSwiper {
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.4);
+    background: none repeat scroll 0% 0% #FFF;
+    border-radius: 5px;
+}
+a.leaflet-control-lyrSwiper-toggle>i {
+	margin: auto;
+    width: 36px;
+    height: 36px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    display:inline-block;
+    line-height: 36px !important;
+    font-weight: bolder;
+    text-align: center;
+    vertical-align:middle;
+    color:#000;
+    font-size:18px;
+}
+
+.leaflet-control-lyrSwipeBarContainer-v{ 
+	position:absolute;
+	height:100% !important;
+	width:8px;
+}
+
+.leaflet-control-lyrSwipeBarContainer-v > div.bar{
+	position:absolute;
+	cursor: ew-resize;
+	width:4px;
+	height:100%;
+	background: #FFF none repeat scroll 0% 0%;
+	-moz-box-shadow: 0 0 5px black;
+	-webkit-box-shadow: 0 0 5px black;
+	box-shadow: 0 0 5px black;
+}
+
+.leaflet-control-lyrSwipeBarContainer-v div.handle>i{
+	position: absolute; 
+	top: 45.5%; 
+ 	right:-14px;
+	text-align:center;
+	vertical-align:middle;
+	font-size:32px;
+	color:white;
+}
+
+.leaflet-control-lyrSwipeBarContainer-v > div span.left{
+	position: absolute;
+	cursor:pointer;
+	top: 10px;
+	color: #000;
+	background-color: #FFF none repeat scroll 0% 0%;
+	width: auto;
+	white-space: nowrap;
+	font-size: 20px;
+	border-radius: 6px;
+	border: 1px solid #000;
+	padding: 5px;
+	right: 10px;
+	text-align: right;	
+}
+
+.leaflet-control-lyrSwipeBarContainer-v > div span.right{
+	position: absolute;
+	cursor:pointer;
+	top: 10px;
+	color: #000;
+	background-color: #FFF none repeat scroll 0% 0%;
+	width: auto;
+	white-space: nowrap;
+	font-size: 20px;
+	border-radius: 6px;
+	border: 1px solid #000;
+	padding: 5px;
+	left: 10px;
+	text-align: left;	
+}
+
+.leaflet-control-lyrSwipeBarContainer-h{ 
+	position:absolute;
+	width:100% !important;
+	height:8px;
+}
+
+.leaflet-control-lyrSwipeBarContainer-h > div.bar{
+	position:absolute;
+	cursor: ns-resize;
+	height:4px;
+	width:100%;
+	background: #FFF none repeat scroll 0% 0%;
+	-moz-box-shadow: 0 0 5px black;
+	-webkit-box-shadow: 0 0 5px black;
+	box-shadow: 0 0 5px black;
+}
+
+.leaflet-control-lyrSwipeBarContainer-h div.handle>i{
+	position: absolute;
+	left: 50.0%;
+	top:-14px;
+	text-align:center;
+	vertical-align:middle;
+	font-size:32px;
+	color:white;
+}
+
+.leaflet-control-lyrSwipeBarContainer-h > div span.top{
+	position: absolute;
+	cursor:pointer;
+	left: 10px;
+	color: #000;
+	background-color: #FFF none repeat scroll 0% 0%;
+	width: auto;
+	white-space: nowrap;
+	font-size: 20px;
+	border-radius: 6px;
+	border: 1px solid #000;
+	padding: 5px;
+	bottom: 10px;
+	text-align: right;	
+}
+
+.leaflet-control-lyrSwipeBarContainer-h > div span.bottom{
+	position: absolute;
+	cursor:pointer;
+	left: 10px;
+	color: #000;
+	background-color: #FFF none repeat scroll 0% 0%;
+	width: auto;
+	white-space: nowrap;
+	font-size: 20px;
+	border-radius: 6px;
+	border: 1px solid #000;
+	padding: 5px;
+	top: 10px;
+	text-align: left;	
+}
