@@ -1,5 +1,8 @@
 # Leaflet layer swipe plug-in
 
+## Demo:
+http://lkanggithub.github.io/leaflet.plugin.layerswiper/index.html
+
 ## Features:
 * Swipe two leaflet layers with draggable swipe bar
 * Swipe two leaflet layers in horizontal/vertical orientation
